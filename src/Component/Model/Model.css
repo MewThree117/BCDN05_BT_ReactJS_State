@@ -1,0 +1,21 @@
+.model__list {
+    display        : flex;
+    justify-content: space-around;
+    gap            : 50px;
+}
+
+.model__item {
+    /* background-image : url("../public/Image/glassesImage/model.jpg"); */
+    background-repeat: no-repeat;
+    background-size  : 100%;
+    width            : 30%;
+    height           : 340px;
+    position         : relative;
+}
+
+.model__item img {
+    position: absolute;
+    width   : 195px;
+    top     : 30%;
+    left    : 21%;
+}

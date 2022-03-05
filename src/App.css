@@ -1,0 +1,22 @@
+.App {
+  background-image         : url("../public/Image/glassesImage/pro1.jpg");
+  background-repeat        : no-repeat;
+  background-size          : 100%;
+  background-position      : bottom;
+  height                   : 100vh;
+  width                    : 100%;
+  position                 : relative;
+  /* z-index               : -2; */
+}
+
+.App::after {
+  position        : absolute;
+  content         : "";
+  top             : 0;
+  left            : 0;
+  right           : 0;
+  bottom          : 0;
+  background-color: #000;
+  opacity         : 0.3;
+  z-index         : -1;
+}

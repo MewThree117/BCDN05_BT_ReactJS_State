@@ -1,0 +1,17 @@
+.glasses__list {
+    display              : grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap                  : 10px;
+    background           : white;
+}
+
+.glasses__item {
+    padding: 10px;
+    margin : 0 auto;
+    border : 1px solid black;
+    cursor : pointer;
+}
+
+.glasses__item img {
+    width: 180px;
+}
